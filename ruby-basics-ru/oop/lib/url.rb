@@ -10,7 +10,7 @@ class Url
 
   include Comparable
   extend Forwardable
-  
+
   def_delegators :@url, :scheme, :host, :port, :query
 
   def initialize(url)
