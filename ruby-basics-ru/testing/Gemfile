@@ -3,5 +3,9 @@
 source 'https://rubygems.org'
 
 # BEGIN
-gem 'minitest-power_assert'
+gem 'rake'
+
+group :test do
+  gem 'minitest-power_assert'
+end
 # END
